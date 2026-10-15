@@ -3,3 +3,10 @@ __pycache__/
 .env
 .venv/
 env/
+*.joblib
+models/*.joblib
+!models/metrics.json
+!models/.gitkeep
+data/combined_news.csv
+data/True.csv
+data/Fake.csv
