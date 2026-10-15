@@ -1,0 +1,59 @@
+{
+  "dataset": {
+    "name": "ISOT Fake News Dataset",
+    "total_articles": 44881,
+    "real_count": 21416,
+    "fake_count": 23465,
+    "train_size": 33660,
+    "test_size": 11221
+  },
+  "preprocessing": {
+    "lemmatization": true,
+    "stopword_removal": true,
+    "html_url_stripping": true,
+    "preprocess_time_seconds": 48.78
+  },
+  "models": {
+    "passive_aggressive": {
+      "accuracy": 99.79,
+      "precision": 99.74,
+      "recall": 99.81,
+      "f1_score": 99.78,
+      "confusion_matrix": [
+        [
+          5853,
+          14
+        ],
+        [
+          10,
+          5344
+        ]
+      ],
+      "cv_accuracy_mean": 99.77,
+      "cv_accuracy_std": 0.02,
+      "train_time_seconds": 28.54,
+      "model_file": "pac_pipeline.joblib"
+    },
+    "logistic_regression": {
+      "accuracy": 99.39,
+      "precision": 99.27,
+      "recall": 99.44,
+      "f1_score": 99.36,
+      "confusion_matrix": [
+        [
+          5828,
+          39
+        ],
+        [
+          30,
+          5324
+        ]
+      ],
+      "cv_accuracy_mean": 99.25,
+      "cv_accuracy_std": 0.08,
+      "train_time_seconds": 41.4,
+      "model_file": "lr_pipeline.joblib"
+    }
+  },
+  "trained_at": "2026-10-15 22:22:37"
+}
