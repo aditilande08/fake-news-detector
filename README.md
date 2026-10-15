@@ -194,7 +194,7 @@ fake-news-detector/
 
 ### 1. Clone or Navigate to the Directory
 ```powershell
-cd C:\Users\aditi\.gemini\antigravity-ide\scratch\fake-news-detector
+cd C:\Users\aditi\fake-news-detector
 ```
 
 ### 2. Set Up a Virtual Environment (Recommended)
